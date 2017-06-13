@@ -7,7 +7,7 @@
 
 ## 高级教程
 
-* Entities
+* [Entities](gao-ji-jiao-cheng/entities.md)
 
 ## Methods
 
