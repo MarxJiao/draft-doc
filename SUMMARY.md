@@ -3,13 +3,9 @@
 ## 快速起步
 
 * [概要](README.md)
-* 基础API
-
-# 高级教程
+* [基础API](ji-chu-api.md)
 
 ## Methods
 
 * [Defining Methods](methods.md)
-
-
 
