@@ -13,6 +13,7 @@
 
 * [Entities](advanced-topic/entities.md)
 * [v0.10版本迁移指南](advanced-topic/v010-api-migration.md)
+* [Decorators](advanced-topic/decorators.md)
 
 ## Methods
 
