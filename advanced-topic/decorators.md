@@ -6,7 +6,7 @@
 
 ## CompositeDecorator
 
-装饰器概念基于扫描给定[ContentBlock]()的内容，找到满足与定义的策略匹配的文本范围，然后使用指定的React组件呈现它们。
+Decorator基于扫描给定[ContentBlock]()的内容，找到满足与定义的策略匹配的文本范围，然后使用指定的React组件呈现它们。
 
 可以使用`CompositeDecorator`类定义所需的装饰器行为。 此类允许你提供多个`DraftDecorator`对象，并依次搜索每个策略的文本块。
 
