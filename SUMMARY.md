@@ -15,6 +15,7 @@
 * [v0.10版本迁移指南](advanced-topic/v010-api-migration.md)
 * [Decorators](advanced-topic/decorators.md)
 * [快捷键绑定](advanced-topic/key-binding.md)
+* [管理焦点](advanced-topic/managing-focus.md)
 
 ## Methods
 
