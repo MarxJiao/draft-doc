@@ -16,6 +16,7 @@
 * [Decorators](advanced-topic/decorators.md)
 * [快捷键绑定](advanced-topic/key-binding.md)
 * [管理焦点](advanced-topic/managing-focus.md)
+* [Block样式](advanced-topic/block-styling.md)
 
 ## Methods
 
