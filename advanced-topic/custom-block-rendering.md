@@ -96,5 +96,51 @@ unstyled block类型别名的使用：
 
 默认的情况下，html标签被用来包裹block类型。通过blockRenderMap，React组件也能够用来包裹EditorBlock。
 
-在解析或者使用`convertFromHTML`时html会被扫描，来匹配特定的标签。
+在解析或者使用`convertFromHTML`时html会被扫描，来匹配特定的标签。一个wrapper会用来承载特定的block类型。例如：
+
+Draft 使用\<ol/> 或 \<ul/>作为\<li>的wrapper。wrapper可以在其它类型的block上使用。
+
+在自定义block类型上使用React组件作为wrapper的例子：
+
+```javascript
+class MyCustomBlock extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div className='MyCustomBlock'>
+        {/* 这里this.props.children 包含<section>，因为section匹配上了这个组件 */}
+        {this.props.children}
+      </div>
+    );
+  }
+}
+
+const blockRenderMap = Immutable.Map({
+  'MyCustomBlock': {
+    // 在解析过程中使用的html标签，用来对应我们的组件;
+    // 它也会被保留，不会被替换。
+    element: 'section',
+    wrapper: MyCustomBlock,
+  }
+});
+
+// 在支持原有block类型的基础上添加我们的myCustomBlock类型
+const extendedBlockRenderMap = Draft.DefaultDraftBlockRenderMap.merge(blockRenderMap);
+
+class RichEditor extends React.Component {
+  ...
+  render() {
+    return (
+      <Editor
+        ...
+        blockRenderMap={extendedBlockRenderMap}
+      />
+    );
+  }
+}
+
+```
 

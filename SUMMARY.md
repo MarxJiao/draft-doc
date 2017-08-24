@@ -17,6 +17,7 @@
 * [快捷键绑定](advanced-topic/key-binding.md)
 * [管理焦点](advanced-topic/managing-focus.md)
 * [Block样式](advanced-topic/block-styling.md)
+* [自定义blocK渲染](advanced-topic/custom-block-rendering.md)
 
 ## Methods
 
