@@ -18,6 +18,7 @@
 * [管理焦点](advanced-topic/managing-focus.md)
 * [Block样式](advanced-topic/block-styling.md)
 * [自定义blocK渲染](advanced-topic/custom-block-rendering.md)
+* [复杂的行内样式](advanced-topic/complex-inline-styles.md)
 
 ## Methods
 
