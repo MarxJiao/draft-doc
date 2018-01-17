@@ -88,4 +88,3 @@ DraftEntityInstance记录是不可改变的，所以你不能直接修改entity�
 本节中的下一篇文章会介绍使用decorator对象，可以用来找到entity并进行渲染。
 
 [链接编辑器](https://github.com/facebook/draft-js/tree/master/examples/draft-0-10-0/link)提供了一个entity的创建和使用的示例。
-
