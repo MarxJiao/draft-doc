@@ -19,6 +19,8 @@
 * [Block样式](advanced-topic/block-styling.md)
 * [自定义blocK渲染](advanced-topic/custom-block-rendering.md)
 * [复杂的行内样式](advanced-topic/complex-inline-styles.md)
+* [嵌套的列表](advanced-topic/nested-lists.md)
+* [文本方向](advanced-topic/text-direction.md)
 
 ## Methods
 
