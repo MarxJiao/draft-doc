@@ -6,4 +6,4 @@ Draft框架提供了对于嵌套列表的支持。你可以使用`Tab`键和`Shi
 
 DraftStyleDefault.css提供了一些默认的比较合适的空白距离和列表样式行为。
 
-注意，除了'ordered-list-item' 和 'unordered-list-item' 这两种块级类型，其它情况都不支持空白缩进。
+注意，除了'ordered-list-item' 和 'unordered-list-item' 这两种block类型，其它情况都不支持空白缩进。
