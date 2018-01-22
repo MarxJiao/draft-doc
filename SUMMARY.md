@@ -21,7 +21,7 @@
 * [复杂的行内样式](advanced-topic/complex-inline-styles.md)
 * [嵌套的列表](advanced-topic/nested-lists.md)
 * [文本方向](advanced-topic/text-direction.md)
-
+* [EditorState 竞速条件](advanced-topic/editorstate-race-conditions.md)
 ## Methods
 
 * [Defining Methods](methods.md)
