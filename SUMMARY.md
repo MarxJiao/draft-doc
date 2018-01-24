@@ -8,6 +8,7 @@
 
 * [概要](quick-start/overview.md)
 * [基础API](quick-start/api-basics.md)
+* [富文本样式](quick-start/rich-styling.md)
 
 ## 高级教程
 
@@ -22,7 +23,6 @@
 * [嵌套的列表](advanced-topic/nested-lists.md)
 * [文本方向](advanced-topic/text-direction.md)
 * [EditorState 竞速条件](advanced-topic/editorstate-race-conditions.md)
-## Methods
+* [问题和陷阱](advanced-topic/issues-and-pitfalls.md)
 
-* [Defining Methods](methods.md)
 
