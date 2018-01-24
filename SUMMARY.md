@@ -8,6 +8,7 @@
 
 * [概要](quick-start/overview.md)
 * [基础API](quick-start/api-basics.md)
+* [富文本样式](quick-start/rich-styling.md)
 
 ## 高级教程
 
