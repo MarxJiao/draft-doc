@@ -25,4 +25,6 @@
 * [EditorState 竞速条件](advanced-topic/editorstate-race-conditions.md)
 * [问题和陷阱](advanced-topic/issues-and-pitfalls.md)
 
+## API参考
 
+* [Editor Component](api-reference/editor-component.md)

@@ -5,5 +5,3 @@
 阅读本书：https://marxjiao.gitbooks.io/draft-js/content/
 
 文档源码：https://github.com/MarxJiao/draft-doc
-
-
