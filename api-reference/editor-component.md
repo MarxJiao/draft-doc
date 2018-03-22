@@ -165,4 +165,6 @@ editorKey?: string
 
 如果你不在服务端渲染`Editor`组件的话，你可能不需要设置这个prop。如果使用服务端渲染的话，你一定要设置这个prop来避免服务端和客户端的不匹配。
 
-如果没设置的话，editorKey会在渲染时自动生成，并作为prop添加到编辑器的`<DraftEditorContents />`组件。如果你设置了这个prop，请确保每个编辑器的key值是唯一的。
+如果没设置的话，editorKey会在渲染时自动生成，并作为prop添加到编辑器的`<DraftEditorContents />`组件。如果你设置了这个prop，请确保每个编辑器的key值是唯一的。比如在粘贴文本时是否使用样式，就会用到这个值。
+
+#### 可取消的Handlers 
